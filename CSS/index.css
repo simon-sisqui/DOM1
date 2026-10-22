@@ -1,0 +1,115 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f48f;
+    margin: 40px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #4d6f94;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #4e7197;
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+}
+
+h2 {
+    color: #444;
+}
+
+form {
+    background-color: white;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2b4d72;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #2b4d72;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e6f0ff;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+#t_comida,
+#t_bebida,
+#t_decor,
+#t_musica,
+#t_subtotal,
+#t_propina,
+#t_total,
+#t_costo_inv {
+    font-weight: bold;
+    color: #2b4d72;
+}
